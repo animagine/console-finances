@@ -23,6 +23,8 @@ Link to the deployed application
 
 Open the console in the browser to see the results.
 
+![](asset/Screenshot%202024-01-01%20at%2010.17.13%20PM.png)
+
 
 
 
