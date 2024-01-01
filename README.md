@@ -18,4 +18,12 @@ N/A
 
 ## Usage
 
+Link to the deployed application
+[Fincole - Console finance application](https://animagine.github.io/console-finances/)
+
+Open the console in the browser to see the results.
+
+
+
+
 
