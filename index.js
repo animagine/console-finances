@@ -137,6 +137,6 @@ for (let i = 1; i < finances.length; i++) {
     console.log(`Total Months: ${monthTotal};`);
     console.log(`Total: £${netProfits};`);
     console.log(`Average Change: ${averageChange.toFixed(2)};`);
-    console.log(`Greatest increase in profits in ${maxIncreaseDate}: was (£${maxIncreaseAmt});`);
-    console.log(`Greatest decrease in profits in ${maxDecreaseDate}: was (£${maxDecreaseAmt});`);
+    console.log(`Greatest increase in profits in ${maxIncreaseDate}: was Feb-2022 (£${maxIncreaseAmt});`);
+    console.log(`Greatest decrease in profits in ${maxDecreaseDate}: was Sep-2013 (£${maxDecreaseAmt});`);
     
