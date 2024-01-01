@@ -89,4 +89,13 @@ var finances = [
 
 // Find the length of the array
 let monthTotal = finances.length;
-console.log(monthTotal);
+//console.log(monthTotal);
+
+//Find the profits/losses over the entire period 
+let netProfit = 0;
+// intialise variable to hold value for profit/loss
+// iterate through the finances list and sum up the total amount of net profit/loss after certain deductions are made
+for (let i =0; i < finances.length; i++)
+        {
+          netProfits += finances[i][1];
+        }
