@@ -86,3 +86,7 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+// Find the length of the array
+let monthTotal = finances.length;
+console.log(monthTotal);
