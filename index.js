@@ -127,3 +127,16 @@ for (let i = 1; i < finances.length; i++) {
 }
   
 }
+
+  // find average for change in profit
+
+  let averageChange = change / (finances.length - 1);
+
+  console.log('Financial Analysis');
+    console.log('=================');
+    console.log(`Total Months: ${monthTotal};`);
+    console.log(`Total: £${netProfits};`);
+    console.log(`Average Change: ${averageChange.toFixed(2)};`);
+    console.log(`Greatest increase in profits in ${maxIncreaseDate}: was (£${maxIncreaseAmt});`);
+    console.log(`Greatest decrease in profits in ${maxDecreaseDate}: was (£${maxDecreaseAmt});`);
+    
