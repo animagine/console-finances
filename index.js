@@ -92,10 +92,25 @@ let monthTotal = finances.length;
 //console.log(monthTotal);
 
 //Find the profits/losses over the entire period 
-let netProfit = 0;
+let netProfits = 0;
 // intialise variable to hold value for profit/loss
 // iterate through the finances list and sum up the total amount of net profit/loss after certain deductions are made
 for (let i =0; i < finances.length; i++)
         {
-          netProfit += finances[i][1];
+          netProfits += finances[i][1];
         }
+
+// find average changes in profit/loss over the entire period
+let change = 0;
+
+let maxIncreaseDate = finances[0][0];
+let maxIncreaseAmt = 0;
+let maxDecreaseDate = finances[0][0];
+let maxDecreaseAmt = 0;
+
+for (let i = 1; i < finances.length; i++) { 
+  let currentProfit = finances[i][1]; 
+  let previousProfit = finances[i-1][1]; 
+  let changeInProfit = currentProfit - previousProfit; 
+  change += changeInProfit; 
+}
