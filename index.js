@@ -113,4 +113,11 @@ for (let i = 1; i < finances.length; i++) {
   let previousProfit = finances[i-1][1]; 
   let changeInProfit = currentProfit - previousProfit; 
   change += changeInProfit; 
+
+  // update max increase variable if the change in profit is more than the max increase amouunt
+  if (changeInProfit > maxIncreaseAmt) {
+    maxIncreaseDate = finances[i][0];
+    maxIncreaseAmt = changeInProfit;
+  }
+
 }
